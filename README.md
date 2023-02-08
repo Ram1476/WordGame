@@ -1,2 +1,3 @@
 # WordGame
-In This Repository i have created a scrambled words using the Word MASTER , Happy Playing .....
+In This Repository i have created a scrambled words game in C# using the Word MASTER 
+HAPPY PLAYING ALL ✌
