@@ -15,8 +15,6 @@ namespace WordGame
 {
     internal class WrdGame
     {
-        public int User_length = 0;
-        public int count = 0;
         public char[] given_Word = { 'M', 'A', 'S', 'T', 'E', 'R' };
         public int Score = 0;
         public string[] possibleFormation = { "armets", "maters", "matres", "ramets", "stream", "tamers","armet","aster","mares","marse","marts","maser","mater"
@@ -44,9 +42,6 @@ namespace WordGame
             {
                 Console.Write("\nEnter your word here: ");
                 String user_Input = Console.ReadLine();
-                
-                User_length = user_Input.Length;
-
                 string change_Input = user_Input.ToLower();
 
                 if (change_Input != "quit")
